@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 100vh;
+}
+.container {
+    margin-top: 30px;
+}
+
+.half-width {
+    height: 570px;
+    padding: 30px;
+    text-align: center;
+    width: 408px;
+    margin: auto;
+    border-radius: 96px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.144);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+}
+.generate-btn{
+    margin-top: 140px;
+    width: 180px;
+    padding: 50px;
+    border-radius: 50%;
+
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.generate-btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+input[type='text'] {
+    background-color: #ffffff40;
+    padding: 10px 0px;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    text-align: right;
+}
+input[type='text']:focus {
+    background-color: #ffffff40;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+}
+.numbers {
+    margin: 30px 0;
+}
+
+.calc-typed {
+margin-top: 20px;
+font-size: 45px;
+text-align: right;
+color: #fff;
+}
+
+.calc-button-row {
+width: 100%;
+}
+
+.button {
+    width: 25%;
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.69);
+border-radius: 60px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+    border: none;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 0px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+}
+.button:active {
+    background-color: #ebe5e467;
+    transform: translateY(4px);
+  }
+.blink-me {
+color: #E0B612;
+}
+.submit-btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 120px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #000;
+}
+.submit-btn:active {
+    border: none;
+    background-color: #ebe5e467;
+    transform: translateY(4px);
+  }
+  button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+.notify {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    display: none;
+}
+.notify_right{
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    display: none;
+}
+.notify-section{
+    width: 35%;
+    margin: 0 auto;
+}
+.action-left {
+    color: #FF3C5F;
+    margin-top: 10px;
+}
+
+
+/* *********Custom Style********** */
+.buttons {
+    cursor: pointer;
+    outline: none;
+    color: #000;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.69);
+/* border-radius: 60px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+    border: none;
+}
+  
+  .buttons:active {
+    background-color: rgba(255, 255, 255, 0.493);
+    transform: translateY(4px);
+  }
